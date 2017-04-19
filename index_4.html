@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="valuateApp">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport"><!-- Title Of Site -->
+    <title>Nic TrueBook</title>
+    <meta content="HTML Responsive Template for Car Dealer Based on Twitter Bootstrap 3.x.x" name="description">
+    <meta content="car dealer, automotive, car auction, car shop, showroom" name="keywords">
+    <meta content="crenoveative" name="author">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"><!-- Fav and Touch Icons -->
+    <link href="images/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="images/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="images/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="images/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="images/ico/favicon.png" rel="shortcut icon"><!-- CSS Cores and Plugins -->
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/plugin.css" rel="stylesheet">
+    <link href="j-folder/css/j-forms.css" rel="stylesheet"><!-- CSS Custom -->
+    <link href="css/style.css" rel="stylesheet"><!-- Your Own Style -->
+    <link href="css/your-style.css" rel="stylesheet">
+    <link href="css/variables.css" rel="stylesheet">
+    <link href="css/rcswitcher.css" rel="stylesheet" type="text/css"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    
+    
+
+     <link rel="stylesheet" type="text/css" href="css/flipcard.css" />
+        <!-- Mega Menu CSS -->
+    <link href="css/grid.min.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.min.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    
+    <!--Integration Styles-->
+
+    <link href="v1/validation/sweetalert.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="v1/select/select.css">  
+    <link href="v1/select/r_-custom_styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.4.5/select2.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.8.5/css/selectize.default.css">
+    <link rel="stylesheet" type="text/css" href="css/flipcard.css" />
+
+    <!--End of Integration Styles-->
+    
+</head>
+<body class="with-top-header" ng-controller="DemoCtrl">
+    <!-- start Container Wrapper -->
+    <div class="container-wrapper">
+        <!-- start Header -->
+        
+        <header id="header">
+            <!-- start Navbar (Header) -->
+            <nav class="navbar navbar-primary navbar-fixed-top navbar-sticky-function">
+                <div id="top-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 clearfix">
+                                <div class="top-header-widget welcome">
+                                    <p>Mobile: +254 (711)041 111/ +254 (732)141 111 | Email: <a class="btn-ajax-login" data-toggle="modal" href="javascript:void(0)">customercare@nic-bank.com</a></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 clearfix hidden-xs">
+                                <div class="top-header-widget pull-right">
+                                    <!-- SEARCH -->
+                                    <div id="search-container">
+                                        <form action="#" id="search-form" method="get" name="search-form">
+                                                 <input name="search" placeholder="Enter your keyword here and then press enter..." type="search">
+                                        </form>
+                                    </div><!-- search-container -->
+                                    <a class="search-button" href="#"></a>
+                                </div>
+                                <div class="top-header-widget pull-right">
+                                    <div class="social-icons clearfix">
+                                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                                <div class="top-header-widget pull-right">
+                                    <a href="#"><i class="fa fa-comments mr-3"></i> Fax: +254 (20) 2888505</a>
+                                </div>
+                                <div class="top-header-widget pull-right">
+                                    <a href="#"><i class="fa fa-phone"></i> Tel: +254 (20) 2888217</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="bottom-nav-container-wrapper" style="">
+                    
+                        <header id="megamenu" class="true-book-mega-menu">
+                          <div class="header-body">
+                                <div class="header-container container">
+                                    <div class="row">
+                                      <nav class="megamenu" color="primary" animation="yes" transparent="no" icons="no" sticky-top="no">
+                                        <div class="container-fluid">
+                                          <div class="megamenu-header">
+                                            <div class="hamburger" hamburger="1" data-toggle="collapse" data-target=".collapse">
+                                                      <div class="hamburger-box">
+                                                        <div class="hamburger-inner"></div>
+                                                      </div>
+                                                    </div>
+                                            <a class="megamenu-brand" href="#"><img src="images/nicbank-truebook.png"></a>
+                                          </div>
+                                          <div class="collapse megamenu-collapse">
+                                            <ul class="nav megamenu-nav megamenu-left">
+                                                
+                                                <!--<li>
+                                                <a href="h#">
+                                                    <span class="hidden-small hidden-medium hidden-large">Home</span>
+                                                    <span class="hidden-xtrasmall"><i class="fa fa-home" aria-hidden="true"></i></span>
+                                                  </a>
+                                                </li>-->
+                                                <!-- /.active -->
+                                               
+                                                <li> <a href="#">About Us</a></li>
+                                                
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#">New & Used </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">New Vehicles</a></li>
+                                                        <li><a href="#">Used Vehicles</a></li>
+                                                    </ul>
+                                                </li>
+                        
+                                                <!--<li> <a href="#">Car BrandSSs</a></li>-->
+                                                
+                                                        
+                                                <li class="dropdown dropdown-menu-full dropdown-reverse" id="car-image-menu-wrap">
+                                                            <a class="dropdown-toggle" href="#">Car Types </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li>
+                                                                    <div class="dropdown-menu-content">
+                                                                     
+                                                                        <div class="column-medium-6">
+                                                                            <div class="column-medium-12">
+                                                                                <h4>Select Car Types</h4>
+                                                                            </div>
+                                                                            <!-- /.column-medium-3 -->
+                                                                            <div class="column-medium-12">
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/convertible-a.png"></div>
+                                                                                    <p>Convertible</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/coupe-a.png"></div>
+                                                                                    <p>Coupe</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/hatchback-a.png"></div>
+                                                                                    <p>Hatchback</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/station-wagon-a.png"></div>
+                                                                                    <p>Station Wagon</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.column-medium-3 -->
+                        
+                                                                            <!-- /.column-medium-3 -->
+                                                                            <div class="column-medium-12">
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/mini-van-a.png"></div>
+                                                                                    <p>Minivan</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/pick-up-truck-a.png"></div>
+                                                                                    <p>Pickup Truck</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/space-wagon-a.png"></div>
+                                                                                    <p>Space Wagon</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/caddy-van-a.png"></div>
+                                                                                    <p>Van (Caddy)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.column-medium-3 -->
+                        
+                                                                            <!-- /.column-medium-3 -->
+                                                                            <div class="column-medium-12">
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/fast-back-a.png"></div>
+                                                                                    <p>Fast Back</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"><img src="images/sedan-a.png"></div>
+                                                                                    <p>Sedan</p>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"></div>
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="column-medium-3">
+                                                                                    <div animation="flash"> </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.column-medium-3 -->
+                                                               
+                                                                        
+                                                                        </div>
+                                                                        <!-- /.column-medium-6 -->
+                                                                        <div class="column-medium-6" id="news-cast-menu-wrapper">
+                        
+                                                                        <!-- /.column-medium-12 -->
+                                                                        
+                                                                        <div class="column-medium-12" id="news-cast-menu-wrap">
+                                                                            <div animation="flash" id="news-cast-image-wrap">
+                                                                                <img src="images/menu-news-b.jpg">
+                                                                            </div>
+                        
+                                                                        <!-- /.column-medium-11 -->
+                                                                        <div class="column-medium-12" id="news-cast-title-wrap">
+                                                                                <div class="column-medium-7">
+                                                                                    <h3>PREPARED IS ME MARIANNE PLEASURE LIKEWISE DEBATING</h3>
+                                                                                    <!-- /.demo-grid -->
+                                                                                </div>
+                        
+                                                                                <!-- /.column-medium-10 -->
+                                                                                <div class="column-medium-5">
+                                                                                    <a href="#">READ MORE</a>
+                                                                                </div>
+                        
+                                                                                </div>
+                                                                        </div>
+                                                                        <!-- /.column-medium-12 -->
+                        
+                                                                            <!-- /.demo-grid -->
+                                                                        </div>
+                                                                        <!-- /.column-medium-6 -->
+                                                                     
+                                                                        <!-- /.column-medium-2 -->
+                                                                    </div>
+                                                                    <!-- /.dropdown-menu-content -->
+                                                                </li>
+                                                            </ul>
+                                                            <!-- /.dropdown-menu -->
+                                                        </li>
+                                                <li> <a href="car-type-inner.html">Car CC</a></li>
+                                                        <!-- /.dropdown dropdown-menu-full -->
+                                            </ul>
+                                            <!-- /.nav megamenu-nav megamenu-left -->
+                                           
+                                            <!--<div class="megamenu-header">
+                                                <a class="megamenu-brand" href="#"><img src="images/nicbank-truebook.png"></a>
+                                            </div>   -->                            
+                                            
+                                            <ul class="nav megamenu-nav megamenu-right">
+                                                
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#">Reviews </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Review - style 2</a></li>
+                                                        <li><a href="#">Review - Single</a></li>
+                                                        <li><a href="#">Review Owner</a></li>
+                                                        <li><a href="#">Review Owner - Single</a></li>
+                                                    </ul>
+                                                </li>
+                        
+                                                
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#">News</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Review - style 2</a></li>
+                                                        <li><a href="#">Review - Single</a></li>
+                                                        <li><a href="#">Review Owner</a></li>
+                                                        <li><a href="#">Review Owner - Single</a></li>
+                                                    </ul>
+                                                </li>
+                        
+                                                <li> <a href="#">Contacts</a></li>
+                                                
+                                                <li id="regent-logo-wrap"> <a href="#"> <div animation="flash"><img src="images/regents.png"></div> </a> </li>
+                        
+                        
+                                            </ul>
+                                            <!-- /.nav megamenu-nav megamenu-right -->
+                                          </div>
+                                          <!-- /.collapse megamenu-collapse -->
+                                        </div>
+                                        <!-- /.container(-fluid) -->
+                                      </nav>
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.header-container .container(-fluid) -->
+                          </div>
+                          <!-- /.header-body -->
+                        </header>                    
+                    
+                </div>
+                
+                <div id="slicknav-mobile"></div>
+            </nav><!-- end Navbar (Header) -->
+        </header><!-- start Main Wrapper -->
+        <div class="main-wrapper scrollspy-container" style="overflow-x: hidden;">
+            <!-- start hero-header -->
+            <div class="slick-hero-slider-wrapper">
+                <div class="slider slick-hero-slider slick-slider-center-mode slick-animation slick-inner-dot">
+                    <div class="slick-item">
+                        <div class="image-bg" style="background-image:url('images/slider-1.jpg');">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-9 col-md-7">
+                                        <div class="slick-hero-slider-caption text-left">
+                                            <h1 class="animation fromBottom transitionDelay2 transitionDuration4 text-left">Get Instant Vehicle Financing</h1>
+                                            <p class="animation fromBottom transitionDelay4 transitionDuration6 text-left">Purchase your dream vehicle with our attractive financing options</p><a class="animation fromBottom transitionDelay6 transitionDuration6" href="#"><span class="bg-primary">Find Out How</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="image-bg" style="background-image:url('images/slider-2.jpg');">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-9 col-md-7">
+                                        <div class="slick-hero-slider-caption text-left">
+                                            <h1 class="animation fromBottom transitionDelay2 transitionDuration4 text-left">Value Your Vehicle in Seconds</h1>
+                                            <p class="animation fromBottom transitionDelay4 transitionDuration6 text-left">Over 20,000 vehicles to compare</p><a class="animation fromBottom transitionDelay6 transitionDuration6" href="#"><span class="bg-primary">Read Review</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+            <div id="quick-advanced-tabs-wrapper">
+                <div class="tab-style-4-wrapper">
+                    <div class="container">
+                        <div class="tab-style-4">
+                            <ul class="tab-nav clearfix" id="detailTab">
+                                <li class="active">
+                                    <a class="scrollA" data-toggle="tab" href="#browseByTab1">QUICK VALUATION</a>
+                                </li>
+                                <li>
+                                    <a class="scrollB" data-toggle="tab" href="#browseByTab2">ADVANCED VALUATION</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="scrollA" class="bg-light section pt-60 pb-50">
+                    <div class="tabs-container">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="browseByTab1">
+                                <div class="main-search-wrapper">
+                                    <div class="container tabs-container">
+                                        
+<!--                                       cooljoe -->
+                                            <form class="registration-form j-forms form-holder">
+                                                <div class="wrapper" id="quick-valuation-wrapper">
+                                                    <div class="content bb_above">
+                                                        <div class="j-row">
+                                                            <div class="evalute_forms col-md-12 col-sm-12 col-xs-12">
+                                                                <div class="form-group col-md-2 col-sm-12 col-xs-12 kamata_one">
+                                                                    <ui-select ng-model="car.selected.Brand" ng-change="quickClearFields(); seiveBrand(car.selected.Brand)" theme="selectize" ng-disabled="brandDisabled" style="width: 300px;" title="Choose a Manufacturer">
+                                                                      <ui-select-match placeholder="Select Brand">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="car in cars | orderBy:'Name' | filter: $select.search | unique : 'Name'">
+                                                                        <span ng-bind-html="car.Name | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select> 
+                                                                </div>
+
+                                                                <div class="form-group col-md-2 col-sm-12 col-xs-12 kamata_two">
+                                                                    <ui-select ng-model="car.selected.Model" ng-change="quickClearFields(); seiveModel(car.selected.Model)" theme="selectize" ng-disabled="modelDisabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="Select Model">{{$select.selected.DisplayName}}</ui-select-match>
+                                                                      <ui-select-choices repeat="car in models | orderBy:'DisplayName' | filter: $select.search | unique : 'DisplayName'">
+                                                                        <span ng-bind-html="car.DisplayName | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>  
+                                                                </div>
+
+                                                                <div class="form-group col-md-2 col-sm-12 col-xs-12 kamata_three">
+                                                                    <ui-select ng-model="car.selected.carYear" ng-change="quickClearFields(); seiveYear(car.selected.carYear)" theme="selectize" ng-disabled="yearDisabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="Year of Manufacture">{{$select.selected.Year}}</ui-select-match>
+                                                                      <ui-select-choices repeat="carYear in years | filter: $select.search">
+                                                                        <span ng-bind-html="carYear.Year | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>
+                                                                </div>
+
+                                                                <div class="form-group col-md-2 col-sm-12 col-xs-12 kamata_four">
+                                                                    <ui-select ng-model="car.selected.subModel" ng-change="quickClearFields(); seivesubModel(car.selected.subModel)" theme="selectize" ng-disabled="submodelDisabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="Select Sub Model">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="car in submodels | orderBy:'Name' | filter: $select.search | unique : 'Name'">
+                                                                        <span ng-bind-html="car.Name | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>  
+                                                                </div>
+                                                               
+                                                                
+                                                                
+                                                                <div class="form-group col-md-2 col-sm-12 col-xs-12 kamata_four">
+                                                                    <input placeholder="Mileage" class="mileage_input" name="mileage" value="" ng-model="milleageValue" ng-change="seiveMilleage(milleageValue)">
+                                                                </div>
+                                                                
+                                                                <a class="quick scrollB" data-toggle="tab" href="#browseByTab3" ng-click="valuate()">
+                                                                    <div class="form-group col-md-2 col-sm-12 col-xs-12 kamata_four">        
+                                                                        <button id="evaluate-btn-wrap" type="submit" class="btn arrow-right colored btn-first">
+                                                                            <span class="mask "></span> <span class="btn-label">VALUE</span>
+                                                                        </button>
+                                                                    </div>
+                                                                </a>
+                                    
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </form>        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="browseByTab2">
+                                <div class="main-search-wrapper">
+                                    <div class="container tabs-container">
+                                        <form id="msform" name="msform">
+                                            <!-- progressbar -->
+                                            <ul id="progressbar">
+                                                <li class="active"><span>1. QUICK VALUATION</span></li>
+                                                <li><span>2. Interior Extras</span></li>
+                                                <li><span>3. Exterior Extras</span></li>
+                                                <li><span>4. RESULTS</span></li>
+                                            </ul>
+                                            <fieldset id="step-form-wrapper">
+                                                <div id="form-image-wrapper">
+                                                    <div id="left-form-side-wrap">
+                                                        <div class="control-group">
+                                                            <h3 class="fs-subtitle">Select your interior options</h3>
+                                                            <div id="left-right-wrapper">
+                                                                
+                                                                <label for="select-beast" id="left-title-wrap">Selected Vehicle Brand</label>
+                                                                
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 kamata_one">
+                                                                    <ui-select theme="select2" ng-model="cars.selected.Brand" ng-change="clearFields(); brandClearFields(); seiveBrand(cars.selected.Brand);" theme="selectize" ng-disabled="disabled" style="width: 300px;" title="Choose a Manufacturer">
+                                                                      <ui-select-match placeholder="{{theBrand}}">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="carS in cars | orderBy:'Name' | filter: $select.search | unique : 'Name'">
+                                                                        <span ng-bind-html="carS.Name | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select> 
+                                                                </div>
+                                                
+                                                            </div>
+                                                            <div id="left-right-wrapper">
+                                                                <label for="select-beast" id="left-title-wrap">Vehicle Model</label> 
+                                                                
+                                                       
+                                                        
+
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 kamata_four">
+                                                                    <ui-select theme="select2" ng-model="cars.selected.model" ng-change="clearFields(); modelClearFields(); seiveModel(cars.selected.model)" theme="selectize" ng-disabled="disabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="{{modelPlaceholder === true ? theModel : 'Select Model'}}">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="cars in models | orderBy:'Name' | filter: $select.search | unique : 'Name'">
+                                                                        <span ng-bind-html="cars.Name | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>  
+                                                                </div>
+                                                        
+                                                    
+                                                            </div>
+                                                            <div id="left-right-wrapper">
+                                                                <label for="select-beast" id="left-title-wrap">Year of Manufacture</label> 
+                                                                
+                                                       
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 kamata_two">
+                                                                    <ui-select theme="select2" ng-model="cars.selected.carYear" ng-change="clearFields(); yearClearFields(); seiveYear(cars.selected.carYear)" theme="selectize" ng-disabled="disabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="{{carYearPlaceholder === true ? theYear : 'Select Year'}}">{{$select.selected.Year}}</ui-select-match>
+                                                                      <ui-select-choices repeat="carSYear in years | filter: $select.search">
+                                                                        <span ng-bind-html="carSYear.Year | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>
+                                                                </div>
+                                                    
+                                                            </div>
+                                                            <div id="left-right-wrapper">
+                                                                <label for="select-beast" id="left-title-wrap">Vehicle Sub-model</label> 
+
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 kamata_four">
+                                                                    <ui-select theme="select2" ng-model="cars.selected.subModel" ng-change="clearFields(); seivesubModel(cars.selected.subModel)" theme="selectize" ng-disabled="disabled" style="width: 300px;" title="Choose a Model">
+                                                                        <ui-select-match placeholder="{{subModelPlaceholder === true ? the_subModel : 'Select Style'}}">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="carS in submodels | orderBy:'Name' | filter: $select.search | unique : 'Name'">
+                                                                        <span ng-bind-html="carS.Name | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>  
+                                                                </div>
+                                              
+                                                            </div>
+                                                            <div id="left-right-wrapper">
+                                                                <label for="select-beast" id="left-title-wrap">Country</label>
+
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 kamata_four">
+                                                                    <ui-select theme="select2" ng-model="cars.selected.carCountry" ng-change="clearFields(); seiveCarCountry(cars.selected.carCountry)" theme="selectize" ng-disabled="disabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="Select country">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="country in carCountry | orderBy:'Name' | filter: $select.search">
+                                                                        <span ng-bind-html="country.Name | highlight: $select.search"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>
+                                                                </div>
+                                                        
+                                                            </div>
+                                                            
+                                                            <div id="left-right-wrapper">
+                                                                <label for="select-beast" id="left-title-wrap">Color</label>
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 kamata_four colorCode">
+                                                                    <ui-select theme="select2" ng-model="cars.selected.carColor" ng-change="clearFields(); seiveCarColor(cars.selected.carColor)" theme="selectize" ng-disabled="disabled" style="width: 300px;" title="Choose a Model">
+                                                                      <ui-select-match placeholder="Select Color">{{$select.selected.Name}}</ui-select-match>
+                                                                      <ui-select-choices repeat="carColor in carcolor | orderBy:'Name' | filter: $select.search">
+                                                                        <span ng-bind-html="carColor.Name | highlight: $select.search"></span>
+                                                                        <span class="colorCode" style="background:{{carColor.Code}};"></span>
+                                                    <!--                    <small ng-bind-html="country.code | highlight: $select.search"></small>-->
+                                                                      </ui-select-choices>
+                                                                    </ui-select>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div id="left-right-wrapper">
+                                                                <label for="select-beast" id="left-title-wrap">Mileage</label> 
+                                                                <div class="form-group col-md-6 col-sm-12 col-xs-12 mileage" style="float: left;margin: 0;">
+                                                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                                                        <input placeholder="{{milleagePlaceholder === true ? readMileage+' KM' : 'Key in Milleage'}}" class="mileage_input" name="mileage" value="" ng-model="readmileage" ng-change="seiveMilleage_adv(readmileage)">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="right-image-side-wrap">
+                                                        <h3 class="fs-subtitle" style="
+    background: none;
+    padding: 0;
+    text-transform: none;
+    font-size: 20px;
+">The estimated value of your vehicle is:</h3>
+                                                        <h2 class="fs-title">{{carMinimum_price}} - {{carMaximum_price}}</h2>
+                                                        <img height="768" src="{{carImageQuick}}" width="1280">
+                                                        <h3>{{theBrand}} - {{theModel}}</h3>
+                                                    </div>
+                                                </div><input class="next action-button" name="next" type="button" value="Next">
+                                            </fieldset>
+                                            <fieldset id="step-form-wrapper">
+                                                <div id="form-image-wrapper">
+                                                    <div id="left-form-side-wrap">
+                                                        
+                                                        <h3 class="fs-subtitle sentenceCase">Select your vehicle's interior options</h3>
+                                                        <section class="extras container clear-fix">
+                                                            <div class="permissions block" id="mid-border">
+                                                                <div ng-repeat="extra in interiorOne" class="{{extra.enabled}} {{extra.name}}">
+                                                                    <label>{{extra.displayname}}</label>
+                                                                    <input name="{{extra.name}}" type="checkbox" value="{{extra.name}}">
+                                                                </div>   
+                                                            </div>
+                                                            <div class="permissions block">
+                                                                <div ng-repeat="extra in interiorTwo" class="{{extra.enabled}} {{extra.name}}">
+                                                                    <label>{{extra.displayname}}</label>
+                                                                    <input name="{{extra.name}}" type="checkbox" value="{{extra.name}}">
+                                                                </div>  
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div id="right-image-side-wrap"> 
+                                                        <h3 class="fs-subtitle" style="
+    background: none;
+    padding: 0;
+    text-transform: none;
+    font-size: 20px;
+">The estimated value of your vehicle is:</h3>
+                                                        <h2 class="fs-title">{{carMinimum_price}} - {{carMaximum_price}}</h2>
+                                                        <img height="768" src="{{carImageQuick}}" width="1280">
+                                                        <h3>{{theBrand}} - {{theModel}}</h3>
+                                                    </div>
+                                                </div><input class="previous action-button" name="previous" type="button" value="Previous"> <input class="next action-button" name="next" type="button" value="Next">
+                                            </fieldset>
+                                            <fieldset id="step-form-wrapper">
+                                                <div id="form-image-wrapper">
+                                                    <div id="left-form-side-wrap">
+                                                        
+                                                        <h3 class="fs-subtitle sentenceCase">Select your vehicle's exterior options</h3>
+                                                        <section class="extras container clear-fix">
+                                                            <div class="permissions block" id="mid-border">
+                                                                <div ng-repeat="extra in exteriorOne" class="{{extra.enabled}} {{extra.name}}">
+                                                                    <label>{{extra.displayname}}</label>
+                                                                    <input name="{{extra.name}}" type="checkbox" value="{{extra.name}}">
+                                                                </div>    
+                       
+                                                            </div>
+                                                            <div class="permissions block">
+                                                                <div ng-repeat="extra in exteriorTwo" class="{{extra.enabled}} {{extra.name}}">
+                                                                    <label>{{extra.displayname}}</label>
+                                                                    <input name="{{extra.name}}" type="checkbox" value="{{extra.name}}">
+                                                                </div>    
+                       
+                                                            </div>
+                                                            
+                                                        </section>
+                                                    </div>
+                                                    <div id="right-image-side-wrap">
+                                                        <h3 class="fs-subtitle" style="
+    background: none;
+    padding: 0;
+    text-transform: none;
+    font-size: 20px;
+">The estimated value of your vehicle is:</h3>
+                                                        <h2 class="fs-title">{{carMinimum_price}} - {{carMaximum_price}}</h2>
+                                                        <img height="768" src="{{carImageQuick}}" width="1280">
+                                                        <h3>{{theBrand}} - {{theModel}}</h3>
+                                                    </div>
+                                                </div><input class="previous action-button" name="previous" type="button" value="Previous"> 
+                                                <input ng-click="populateExtras()" class="next action-button" name="next" type="button" value="Next">
+                                            </fieldset>
+                                            <fieldset id="step-form-wrapper">
+                                                <div id="form-image-wrapper">
+                                                    <div id="left-form-side-wrap">
+                                                        <div id="advanced-evaluation-results-wrapper">
+                                                            <h2>Your <span>{{theBrand}} {{theModel}}</span> vehicle details are:</h2>
+                                                            <ul id="advanced-evaluation-results-wrap">
+                                                                <li>Year of Manufacture: <span>{{theYear}}</span></li>
+                                                                <li>Sub-Model: <span>{{extras.submodel}}</span></li>
+                                                                <li>Mileage: <span>{{extras.mileage}} KM</li>
+                                                                <!--<li>fueltype: <span>{{extras.fueltype}}</span></li>-->
+                                                                <li>Drive Train: <span>{{extras.drivetrain}}</span></li>
+                                                                <li>Transmission: <span>{{extras.transmission}}</span></li>
+                                                                <li>Country: <span>{{extras.country}}</span></li>
+                                                                <!--<li>Enginecap: <span>{{extras.enginecap}}</span></li>-->
+                                                                
+                                                                <li ng-repeat="extra in extrasList" class="customExtras">{{extra.extraName}}: <span>{{extra.extraValue}}</span></li> 
+                                                                
+                                                                
+                                                            </ul>
+                                                            <p><strong>Disclaimer:</strong> These results are based on the accuracy of the information given. For a more detailed valuation of your vehicle please contact Regent Autovaluers.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div id="right-image-side-wrap"> 
+                                                        <h3 class="fs-subtitle" style="
+    background: none;
+    padding: 0;
+    text-transform: none;
+    font-size: 20px;
+    padding-left: 0px;
+">The estimated value of your vehicle is:</h3>
+                                                        <h2 class="fs-title">{{carMinimum_price}} - {{carMaximum_price}}</h2>
+                                                        <img height="768" src="{{carImageQuick}}" width="1280">
+                                                        <h3>{{theBrand}} - {{theModel}}</h3>
+                                                    </div>
+                                                </div>
+                                                <input class="previous action-button greyed"  name="previous" type="button" value="Previous">
+                                                
+                                <a data-toggle="modal" href="#enquiryModal" id="prints-page-btn" class="greyed btn btn-info pull-right pull-left-xss">Print Results</a>
+                                <a ng-click="resetFields()" class="scrollA" data-toggle="tab" href="#browseByTab1" style="
+                                    float: left;
+                                    display: block;
+                                    width: 100%;
+                                    text-align: left;
+                                    color: #26a6e6;
+                                ">Do you want value another car?</a>
+        
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="tab-pane fade" id="browseByTab3">
+                                <form class="ng-pristine ng-valid" id="bubble_FORM_33" name="bubble_FORM_33">
+                                <!--<h2 class="fs-title" id="results-price">Nissan Tiida</h2>-->
+
+
+                                <div id="bubble_DIV_3">
+                                    <div id="bubble_DIV_4">
+                                        <div id="bubble_DIV_5">
+                                            <h2 id="bubble_H2_6">{{theBrand}} {{theModel}} <span>Vehicle Details</span></h2>
+
+
+                                            <ul id="bubble_UL_7">
+                                                <li id="bubble_LI_8">Vehicle Brand: <strong id="bubble_STRONG_9">{{theBrand}}</strong></li>
+
+
+                                                <li id="bubble_LI_10">Sub-Model: <strong id="bubble_STRONG_11">{{theModel}}</strong></li>
+
+
+                                                <li id="bubble_LI_12">Year of Manufacture: <strong id="bubble_STRONG_13">{{theYear}}</strong></li>
+
+
+                                                <li id="bubble_LI_14">Mileage: <strong id="bubble_STRONG_15">{{readMileage}} KM</strong></li>
+                                            </ul>
+
+
+                                            <p id="bubble_P_16"><strong id="bubble_STRONG_17">Disclaimer:</strong> These results are based on the accuracy of the information given. For a more detailed valuation of your vehicle please contact Regent Autovaluers.</p>
+                                             
+                                             <a data-toggle="modal" href="#enquiryModal" id="prints-page-btn" class="quick-print greyed btn btn-info pull-right pull-left-xss">Print Results</a>
+               
+                                            <a class="scrollB" data-toggle="tab" href="#browseByTab2">
+                                                <button id="bubble_BUTTON_23" type="button">Advanced Valuation</button>
+                                            </a>
+                                             <a ng-click="resetFields()" id="evaluateAgain" class="scrollA" data-toggle="tab" href="#browseByTab1" style="
+                                    float: left;
+                                    display: block;
+                                    width: 100%;
+                                    text-align: left;
+                                    color: #26a6e6;
+                                ">Do you want value another car?</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div id="bubble_DIV_18">
+                                        <h3 class="fs-subtitle" style="
+    background: none;
+    padding: 0;
+    text-transform: none;
+    font-size: 20px;
+    padding-left: 30px;
+">The estimated value of your vehicle is:</h3>
+                                        <h2 id="bubble_H2_19">{{carMinimum_price}} - {{carMaximum_price}}</h2>
+                                        <img alt="" height="768" id="bubble_IMG_20" src="{{carImageQuick}}" width="1280">
+
+                                        <h3 id="bubble_H3_21">{{theBrand}} {{theModel}}</h3>
+                                    </div>
+                                </div>
+                                <!--
+                                                                                                                                                <input type="button" name="print" value="Print Results" />
+                                                                                                                                                <input type="button" name="advanced" value="Advanced Valuation" />-->
+                               
+                            </form>
+                            </div>
+                                   
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<div class="bg-light section" id="car-wrap-sections-wrap">
+            
+<div class="container group1">
+                
+                     
+                    
+                    <div class="car-item-wrapper ">
+                    
+                        <div class="GridLex-gap-30 ">
+                        
+                            <div class="GridLex-grid-noGutter-equalHeight GridLex-grid-center">
+                            
+                                <div class="GridLex-col-3_sm-6_xs-6_xss-12"> 
+                                
+                                    
+                                        <div class="card-container dual">
+                                        <!--<div class="car-item"> </div>-->
+                                            <div class="card">
+                                                <div class="front">
+                                                    <div class="vehicle-card-photo">
+                                                        <img src="images/box4.jpg" />
+                                                    </div>
+                                                    <div class="vehicle-card-description text-xs-center m-t-0_75">
+                                                        <p class="m-b-0 description-make-model-year-type">Are you Insured?</p>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="back backflip">
+                                        
+                                                <div class="vehicle-card-description text-xs-center m-t-0_5-up-md m-t-1_5-up-lg">
+                                                    <h5 class="description-make-model-year-type m-b-0 m-b-1-up-lg">Motor Insurance</h5>
+                                                    <div class="description-rating p-t-0_25">
+                                                <div class="text-success">
+                                                
+                                                
+                                                <span class="rating-stars">
+                                                 </span>
+                                                 
+                                                </div>
+                                                    </div>
+                                                    <p class="text-xs-left m-b-0_5-up-md m-b-1-up-lg">
+                                                            Rest easy knowing your vehicle is well taken care of with our comprehensive motor insurance cover. 
+                                                    </p>
+                                                   
+                                                    <a href="http://brand2d.com/nicbank/ke/nic-insurance/products/motor-insurance/" target="_blank" class="btn btn-success m-t-1-up-lg">
+                                                       See More
+                                                    </a>
+                                                </div>
+                                                
+                                        
+                                        
+                                                </div>
+                                            </div>
+                                        </div>
+            
+
+                                </div>
+                                
+                                <div class="GridLex-col-3_sm-6_xs-6_xss-12">
+                                
+                                    <div class="card-container dual">
+                                        <!--<div class="car-item"> </div>-->
+                                            <div class="card">
+                                                <div class="front">
+                                                    <div class="vehicle-card-photo">
+                                                        <img src="images/box3.jpg" />
+                                                    </div>
+                                                    <div class="vehicle-card-description text-xs-center m-t-0_75">
+                                                        <p class="m-b-0 description-make-model-year-type">Need Vehicle Financing?</p>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="back backflip">
+                                        
+                                                <div class="vehicle-card-description text-xs-center m-t-0_5-up-md m-t-1_5-up-lg">
+                                                    <h5 class="description-make-model-year-type m-b-0 m-b-1-up-lg">Asset Financing</h5>
+                                                    <div class="description-rating p-t-0_25">
+                                                <div class="text-success">
+                                                
+                                                
+                                                <span class="rating-stars">
+                                                 </span>
+                                                 
+                                                </div>
+                                                    </div>
+                                                    <p class="text-xs-left m-b-0_5-up-md m-b-1-up-lg">
+                                                            Get competitive vehicle financing options with flexible repayment rates. 
+                                                    </p>
+                                                    
+                                                    <a href="http://brand2d.com/nicbank/ke/home/borrow-from-us/asset-finance/" target="_blank" class="btn btn-success m-t-1-up-lg">
+                                                        See More
+                                                    </a>
+                                                </div>
+                                                
+                                        
+                                        
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                </div>
+                                
+                                <div class="GridLex-col-3_sm-6_xs-6_xss-12">
+                                
+                                    <div class="card-container dual">
+                                        <!--<div class="car-item"> </div>-->
+                                            <div class="card">
+                                                <div class="front">
+                                                    <div class="vehicle-card-photo">
+                                                        <img src="images/box2.jpg" />
+                                                    </div>
+                                                    <div class="vehicle-card-description text-xs-center m-t-0_75">
+                                                        <p class="m-b-0 description-make-model-year-type">Need to Lease?</p>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="back backflip">
+                                        
+                                                <div class="vehicle-card-description text-xs-center m-t-0_5-up-md m-t-1_5-up-lg">
+                                                    <h5 class="description-make-model-year-type m-b-0 m-b-1-up-lg">NIC Leasing</h5>
+                                                    <div class="description-rating p-t-0_25">
+                                                <div class="text-success">
+                                                
+                                                
+                                                <span class="rating-stars">
+                                                 </span>
+                                                 
+                                                </div>
+                                                    </div>
+                                                    <p class="text-xs-left m-b-0_5-up-md m-b-1-up-lg">
+                                                            Keep your business going with our attractive vehicle leasing services. 
+                                                    </p>
+                                                   
+                                                    <a href="http://brand2d.com/nicbank/ke/nic-leasing/" target="_blank" class="btn btn-success m-t-1-up-lg">
+                                                        See More
+                                                    </a>
+                                                </div>
+                                                
+                                        
+                                        
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                </div>
+                                
+                                <div class="GridLex-col-3_sm-6_xs-6_xss-12">
+                                
+                                    <div class="card-container dual">
+                                        <!--<div class="car-item"> </div>-->
+                                            <div class="card">
+                                                <div class="front">
+                                                    <div class="vehicle-card-photo">
+                                                        <img src="images/box1.jpg" />
+                                                    </div>
+                                                    <div class="vehicle-card-description text-xs-center m-t-0_75">
+                                                        <p class="m-b-0 description-make-model-year-type">Top Picks</p>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="back backflip">
+                                        
+                                                <div class="vehicle-card-description text-xs-center m-t-0_5-up-md m-t-1_5-up-lg">
+                                                    <h5 class="description-make-model-year-type m-b-0 m-b-1-up-lg">Reviews</h5>
+                                                    <div class="description-rating p-t-0_25">
+                                                <div class="text-success">
+                                                
+                                                
+                                                <span class="rating-stars">
+                                                 </span>
+                                                 
+                                                </div>
+                                                    </div>
+                                                    <p class="text-xs-left m-b-0_5-up-md m-b-1-up-lg">
+                                                            This month, we review the Mazda Demio 2016
+                                                    </p>
+                                                    
+                                                    <a href="#" class="btn btn-success m-t-1-up-lg">
+                                                        See Review
+                                                    </a>
+                                                </div>
+                                                
+                                        
+                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <!--<div class="text-center mt-70">
+                        <a href="#" class="btn btn-primary btn-lg">Browse More Cars</a>
+                    </div>-->
+
+                </div>  
+                
+            </div>            
+
+<!--<div class="bg-light section" id="car-attract"> 
+                
+                
+                
+            </div>-->
+
+              
+            <div class="section pb-60">
+            
+                <div class="container group1">
+                    
+                    <div class="row gap-40">
+                    
+                        <div class="col-xs-12 col-md-12">
+                        
+                            <h2 class="section-title">Popular Vehicles</h2>
+                            
+                            <div class="car-review-grid-wrapper">
+                            
+                                <div class="GridLex-gap-30">
+                        
+                                    <div class="GridLex-grid-noGutter-equalHeight GridLex-grid-center">
+                                    
+                                        <div class="GridLex-col-3_sm-3_xs-12_xss-12">
+                                        
+                                            <div class="car-review-grid-item car-item">
+                                                 <a href="#">
+                                                    <div class="image">
+                                                        <img src="images/c1.jpg" alt="Car" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>Toyota GT-96</h5>
+                                                        <!--<h6>E250 CDI Coupe</h6>-->
+                                                              <div id="rateYo1" style="margin: 10px auto"></div>
+                                                    </div>
+                                                    <div class="bottom">
+                                                        <ul class="car-meta clearfix">
+                                                            <li>
+                                                                <i class="fa fa-cogs"></i> Diesel
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-tachometer"></i> 2,500cc.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="GridLex-col-3_sm-3_xs-12_xss-12">
+                                        
+                                            <div class="car-review-grid-item car-item">
+                                                <a href="#">
+                                                    <div class="image">
+                                                        <img src="images/c2.jpg" alt="Car" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>Audi Q7</h5>
+                                                        <!--<h6>Leon Cupra</h6>-->
+                                                              <div id="rateYo2" style="margin: 10px auto"></div>
+
+                                                    </div>
+                                                    <div class="bottom">
+                                                        <ul class="car-meta clearfix">
+                                                            <li>
+                                                                <i class="fa fa-cogs"></i> Gasoline
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-tachometer"></i> 2,000cc.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>                                      
+
+                                    
+                                        <div class="GridLex-col-3_sm-3_xs-12_xss-12">
+                                        
+                                            <div class="car-review-grid-item car-item">
+                                                 <a href="#">
+                                                    <div class="image">
+                                                        <img src="images/c1.jpg" alt="Car" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>Toyota GT-96</h5>
+                                                        <!--<h6>E250 CDI Coupe</h6>-->
+                                                              <div id="rateYo3" style="margin: 10px auto"></div>
+                                                    </div>
+                                                    <div class="bottom">
+                                                        <ul class="car-meta clearfix">
+                                                            <li>
+                                                                <i class="fa fa-cogs"></i> Diesel
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-tachometer"></i> 2,500cc.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="GridLex-col-3_sm-3_xs-12_xss-12">
+                                        
+                                            <div class="car-review-grid-item car-item">
+                                                <a href="#">
+                                                    <div class="image">
+                                                        <img src="images/c2.jpg" alt="Car" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>Audi Q7</h5>
+                                                        <!--<h6>Leon Cupra</h6>-->
+                                                              <div id="rateYo4" style="margin: 10px auto"></div>
+
+                                                    </div>
+                                                    <div class="bottom">
+                                                        <ul class="car-meta clearfix">
+                                                            <li>
+                                                                <i class="fa fa-cogs"></i> Gasoline
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-tachometer"></i> 2,000cc.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>                                      
+
+                                                                                
+                                    </div>
+                                
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                        
+                         
+                        
+                    </div>
+
+                </div>
+                
+            </div>              
+              
+              
+            <div class="section partners-pool" id="car-attract">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                            <div class="section-title text-center">
+                                <div class="section-title">
+                                    <h2>Partners</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-item-wrapper row gap-0">
+                        <div class="col-xss-4 col-xs-3 col-sm-2 mb-30">
+                            <a href="#"><img alt="Car Brand" src="images/l1.png"></a>
+                        </div>
+                        <div class="col-xss-4 col-xs-3 col-sm-2 mb-30">
+                            <a href="#"><img alt="Car Brand" src="images/l2.png"></a>
+                        </div>
+                        <div class="col-xss-4 col-xs-3 col-sm-2 mb-30">
+                            <a href="#"><img alt="Car Brand" src="images/l3.png"></a>
+                        </div>
+                        <div class="col-xss-4 col-xs-3 col-sm-2 mb-30">
+                            <a href="#"><img alt="Car Brand" src="images/l4.png"></a>
+                        </div>
+                        <div class="col-xss-4 col-xs-3 col-sm-2 mb-30">
+                            <a href="#"><img alt="Car Brand" src="images/l5.png"></a>
+                        </div>
+                        <div class="col-xss-4 col-xs-3 col-sm-2 mb-30">
+                            <a href="#"><img alt="Car Brand" src="images/l6.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wrapper scrollspy-footer">
+            <footer class="secondary-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p class="copy-right">&#169; 2017 NIC Truebook. All rights reserved.</p>
+                        </div>
+                        <div class="col-sm-4" id="regents">
+                            <div id="regent-p"></div>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="copy-right">NIC true book is a subsidiary of Nic group</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- end footer-wrapper -->
+    </div><!-- end Container Wrapper -->
+    <!-- start Back To Top -->
+<div id="enquiryModal" class="modal border-transparent fade container-sm" tabindex="-1" data-replace="true" ng-controller="certCtrl">
+    <form class="modal-container" id="newsletter-pdf">
+            <div class="car-item-sm for-enquiry" id="newsletter-image-bg">
+            <img src="images/newsletterbg.jpg">
+          </div>
+        <div class="modal-body">
+
+        <div class="modal-header"> 
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title text-center">Download Certificate</h4>
+        </div>
+
+            <p><strong>Congratulations!</strong> You have now completed your valuation, We will send it to your email for you to print.</p>
+            <div class="form-horizontal">
+                <div class="form-group row gap-15 name">
+                        <input type="text" class="form-control mb-0" id="inputEmail1" placeholder="Name">
+                </div>
+                <div class="form-group row gap-15 email">
+                        <input type="text" class="form-control mb-0" id="inputEmail3" placeholder="Email ID">
+                </div>
+                <div class="form-group row gap-15">
+<!--                    <div class="modal-footer text-left">-->
+                    <div class="col-sm-12">
+                                    <label><span id="accept-check"><input type="checkbox" name="radio1" value="radio1"></span><p> I Accept terms and conditions & privacy policy</p></label>
+                      </div>              
+                            <a href="#" class="pdf-send">Send</a>
+<!--                            <button type="button" class="btn btn-sm btn-warning" data-dismiss="modal" aria-hidden="true">Close</button>-->
+                </div>
+                <div class="form-group row gap-15">
+                    <div class="col-sm-12">
+                        <p>Login with social media</p>
+                    </div>
+
+                            <div class="social-meta-link">
+                                    <a href="#" id="fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                    <a href="#" id="twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                                        <a href="#" id="google"><i class="fa fa-google-plus"></i> Google +</a>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div> 
+    <div id="back-to-top">
+        <a href="#"><i class="ion-ios-arrow-up"></i></a>
+    </div><!-- end Back To Top -->
+    <div class="modal fade login-box-wrapper" data-backdrop="static" data-keyboard="false" data-width="500" id="ajaxLoginModal" style="display: none;" tabindex="-1"></div>
+    <div class="modal fade login-box-wrapper" data-backdrop="static" data-keyboard="false" data-width="500" id="ajaxRegisterModal" style="display: none;" tabindex="-1"></div>
+    <div class="modal fade login-box-wrapper" data-backdrop="static" data-keyboard="false" data-width="500" id="ajaxForgotPasswordModal" style="display: none;" tabindex="-1"></div><!-- JS Global -->
+    <script src="js/jquery-2.2.4.min.js" type="text/javascript">
+    </script> 
+    <script src="js/jquery-migrate-1.4.1.min.js" type="text/javascript">
+    </script> 
+    <script src="js/bootstrap.min.js" type="text/javascript">
+    </script> 
+    <script src="js/jquery.waypoints.min.js" type="text/javascript">
+    </script> 
+    <script src="js/jquery.easing.1.3.js" type="text/javascript">
+    </script> 
+    <script src="js/SmoothScroll.min.js" type="text/javascript">
+    </script> 
+    <script src="js/jquery.slicknav.min.js" type="text/javascript">
+    </script> 
+    <script src="js/jquery.placeholder.min.js" type="text/javascript">
+    </script> 
+    <script src="js/fancySelect.js" type="text/javascript">
+    </script> 
+    <script src="js/slick.min.js" type="text/javascript">
+    </script> 
+    
+<!--Personal Contacts Modal-->  
+<script type="text/javascript" src="js/bootstrap-modalmanager.js"></script>
+<script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    
+    
+    <script src="js/bootstrap-modalmanager.js" type="text/javascript">
+    </script> 
+    <script src="js/bootstrap-modal.js" type="text/javascript">
+    </script> 
+    <script src="js/customs.js" type="text/javascript">
+    </script> <!-- Scripts -->
+     
+    <script src="j-folder/js/jquery.multiple.select.js">
+    </script> 
+    <script src="j-folder/js/jquery.maskedinput.min.js">
+    </script> 
+    <script src="j-folder/js/jquery.validate.min.js">
+    </script> 
+    <script src="j-folder/js/jquery.form.min.js">
+    </script> 
+    <script src="j-folder/js/j-forms.js">
+    </script> 
+    <script src="j-folder/js/jquery.ui.min.js">
+    </script> 
+    <script src="j-folder/js/jquery.ui.touch-punch.min.js">
+    </script> 
+    <script src="js/rcswitcher.js" type="text/javascript">
+    </script> 
+    <script src="js/selectize.js">
+    </script> 
+
+    <script src="js/flipcard.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Mega Menu javascripts -->
+    <script type="text/javascript" src="js/menu.min.js"></script>
+
+    <script>
+
+    //jQuery time
+    var current_fs, next_fs, previous_fs; //fieldsets
+    var left, opacity, scale; //fieldset properties which we will animate
+    var animating; //flag to prevent quick multi-click glitches
+
+    $(".next").click(function(){
+    if(animating) return false;
+    animating = true;
+
+    current_fs = $(this).parent();
+    next_fs = $(this).parent().next();
+
+    //activate next step on progressbar using the index of next_fs
+    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+    //show the next fieldset
+    next_fs.show(); 
+    //hide the current fieldset with style
+    current_fs.animate({opacity: 0}, {
+        step: function(now, mx) {
+            //as the opacity of current_fs reduces to 0 - stored in "now"
+            //1. scale current_fs down to 80%
+            scale = 1 - (1 - now) * 0.2;
+            //2. bring next_fs from the right(50%)
+            left = (now * 50)+"%";
+            //3. increase opacity of next_fs to 1 as it moves in
+            opacity = 1 - now;
+ //           current_fs.css({'transform': 'scale('+scale+')'});
+            next_fs.css({'left': left, 'opacity': opacity});
+        }, 
+        duration: 800, 
+        complete: function(){
+            current_fs.hide();
+            animating = false;
+        }, 
+        //this comes from the custom easing plugin
+        easing: 'easeInOutBack'
+    });
+    });
+
+    $(".previous").click(function(){
+    if(animating) return false;
+    animating = true;
+
+    current_fs = $(this).parent();
+    previous_fs = $(this).parent().prev();
+
+    //de-activate current step on progressbar
+    $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+    //show the previous fieldset
+    previous_fs.show(); 
+    //hide the current fieldset with style
+    current_fs.animate({opacity: 0}, {
+        step: function(now, mx) {
+            //as the opacity of current_fs reduces to 0 - stored in "now"
+            //1. scale previous_fs from 80% to 100%
+            scale = 0.8 + (1 - now) * 0.2;
+            //2. take current_fs to the right(50%) - from 0%
+            left = ((1-now) * 50)+"%";
+            //3. increase opacity of previous_fs to 1 as it moves in
+            opacity = 1 - now;
+            current_fs.css({'left': left});
+            previous_fs.css({'left': left, 'opacity': opacity});
+        }, 
+        duration: 800, 
+        complete: function(){
+            current_fs.hide();
+            animating = false;
+        }, 
+        //this comes from the custom easing plugin
+        easing: 'easeInOutBack'
+    });
+    });
+
+    $(".submit").click(function(){
+    return false;
+    })
+
+    </script> 
+
+
+    <script>
+
+            window.onload = function(){
+
+                $('.gender :radio').rcSwitcher({
+                    // reverse: true,
+                    theme: 'yellowish-green',
+                    width: 48,
+                    height: 16,
+                    onText: '&check;',
+                    offText: '&cross;',
+                    blobOffset: 2,
+                    inputs: false,
+                    autoStick: true,
+                })
+                // Listen to status changes
+                .on( 'turnon.rcSwitcher', function( e, data ){
+                    // console.log( data.$input[0].checked );
+                } );
+
+                $('.level :radio').rcSwitcher({
+                    // reverse: true,
+                    theme: 'flat',
+                    // width: 70,
+                    blobOffset: 1,
+                });
+
+
+                $('.permissions :checkbox').rcSwitcher({
+                    // reverse: true,
+                    // inputs: true,
+                    blobOffset: 2,
+                    //theme: 'dark',
+                    // autoFontSize: true,
+                    theme: 'yellowish-green',
+                    width: 54,
+                    height: 22,
+                    onText: '&check;',
+                    offText: 'X',
+                    inputs: false,
+ 
+                    autoStick: true,
+                }).on( 'toggle.rcSwitcher', function( e, data, type ){
+                    console.log( type );
+                } );
+
+                $('.delete :checkbox').rcSwitcher({
+                    // reverse: true,
+                    inputs: true,
+                    // width: 70,
+                    // height: 24,
+                    // blobOffset: 2,
+                    onText: 'Del',
+                    offText: 'No',
+                    theme: 'modern',
+                    // autoFontSize: true,
+                }).on({
+                    'enable.rcSwitcher': function( e, data )
+                    {
+                        console.log( 'Enabled', data );
+                    },
+
+                    'disable.rcSwitcher': function( e, data )
+                    {
+                        console.log( 'Disabled' );
+                    }
+                });
+
+                /*-------------------------------------------------------------------*\
+                |                           Testing Input Changes
+                \*-------------------------------------------------------------------*/
+
+                // Auto Check Radio Button
+                // NOTE: Radio Button Are Disabled Only By Activating Another Sibiling Radio
+                $('.toggle-radio').on( 'click', function(e)
+                {
+                    if( $(':radio[value=male]').is(':checked' ) )
+                        $(':radio[value=male]').prop( 'checked', false )
+                    else
+                        $(':radio[value=male]').prop( 'checked', true )
+
+                    $(':radio[value=male]').change();
+                } );
+
+                // Toggle Disable State Of radio Button
+                $('.toggle-radio-disable').on( 'click', function(e)
+                {
+                    if( $(':radio[value=male]').is(':disabled' ) )
+                        $(':radio[value=male]').prop( 'disabled', false )
+                    else
+                        $(':radio[value=male]').prop( 'disabled', true )
+
+                    $(':radio[value=male]').change();
+                } );
+
+                // Toggle Checked Status For Check Box
+                $('.toggle-checkbox').on( 'click', function(e)
+                {
+                    if( $(':checkbox[value=1]').is(':checked' ) )
+                        $(':checkbox[value=1]').prop( 'checked', false )
+                    else
+                        $(':checkbox[value=1]').prop( 'checked', true )
+
+                    $(':checkbox[value=1]').change();
+                } );
+
+
+                // Toggle Disabled Status For Check Box
+                $('.toggle-checkbox-disable').on( 'click', function(e){
+
+                    if( $(':checkbox[value=1]').is(':disabled' ) )
+                        $(':checkbox[value=1]').prop( 'disabled', false )
+                    else
+                        $(':checkbox[value=1]').prop( 'disabled', true )
+
+                    $(':checkbox[value=1]').change();
+                } );
+            };
+
+
+
+            $('#select-brand, #select-model, #select-sub-model, #select-year, #select-mileage, #select-color, #select-country').selectize({});
+
+
+
+
+ 
+  $("#rateYo1").rateYo({
+    rating: 4,
+    fullStar: true,
+    readOnly: true
+
+});
+ 
+  $("#rateYo2").rateYo({
+    rating: 3,
+    fullStar: true,
+    readOnly: true
+
+});
+
+ 
+  $("#rateYo3").rateYo({
+    rating: 5,
+    fullStar: true,
+    readOnly: true
+
+});
+ 
+  $("#rateYo4").rateYo({
+    rating: 2,
+    fullStar: true,
+    readOnly: true
+
+});
+
+
+$("button.btn.btn-av").click(function(){
+            $("a.advanced-valuation-page-btn").trigger("click");
+});
+</script>
+
+    <!--Integration Scripts-->
+
+    <script src="v1/validation/sweetalert.min.js" type="text/javascript"></script>
+    <!--<script src="v1/js/plugins.js" type="text/javascript"></script>-->
+    <script src="v1/js/angular.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>     
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-sanitize.js"></script>
+    <!-- ui-select files -->
+    <script src="v1/select/firebase.js" type="text/javascript"></script>
+    <script src="v1/select/angularfire.min.js" type="text/javascript"></script>
+    
+    <script src="v1/select/1select.js"></script>
+    <script src="v1/select/demo_c.js"></script>
+    <script src="v1/select/7scroller.js"></script>    
+    <script>
+    //alert("hacked!")
+    $(document).ready(function(){
+
+      $(".evalute_forms .kamata_one, .evalute_forms .kamata_two, .evalute_forms .kamata_three, .evalute_forms .kamata_four").addClass('greyOut');
+
+      $(".evalute_forms .kamata_one input.ui-select-search").focus(function(){
+          $(".evalute_forms .kamata_one").removeClass('greyOut');
+      });
+
+      $(".evalute_forms .kamata_one input").blur(function(){
+          $(".evalute_forms .kamata_two input.ui-select-search").focus();
+            setTimeout(function(){
+                if($(".evalute_forms .kamata_one .ui-select-container").hasClass('ng-dirty')){
+
+                      $(".evalute_forms .kamata_two").removeClass('greyOut');
+                }   
+            },1000);
+
+      });
+
+      $(".evalute_forms .kamata_two input").blur(function(){
+            $(".evalute_forms .kamata_three input.ui-select-search").focus();
+            setTimeout(function(){
+                if($(".evalute_forms .kamata_two .ui-select-container").hasClass('ng-dirty')){
+                    $(".evalute_forms .kamata_three").removeClass('greyOut');
+                }
+            },1000);
+      });
+
+      $(".evalute_forms .kamata_three input").blur(function(){
+            $(".evalute_forms .kamata_four input").focus();
+            setTimeout(function(){
+                if($(".evalute_forms .kamata_three .ui-select-container").hasClass('ng-dirty')){
+                    $(".evalute_forms .kamata_four").removeClass('greyOut');
+                }
+            },1000);
+      });
+
+      $(".evalute_forms .kamata_four input").blur(function(){
+          $(this).find('.ui-select-search').blur();
+      });
+
+      //The Mileage Input Box
+
+                $('input.mileage_input').keyup(function(event){
+                    // skip for arrow keys
+                    if(event.which >= 37 && event.which <= 40){
+                        event.preventDefault();
+                    }
+                    var $this = $(this);
+                    var num = $this.val().replace(/,/gi, "").split("").reverse().join("");
+
+                    var num2 = RemoveRougeChar(num.replace(/(.{3})/g,"$1,").split("").reverse().join(""));
+
+                    console.log(num2);
+
+
+                    // the following line has been simplified. Revision history contains original.
+                    $this.val(num2);
+                });
+              });
+
+              function RemoveRougeChar(convertString){
+
+
+                  if(convertString.substring(0,1) == ","){
+
+                      return convertString.substring(1, convertString.length)            
+
+                  }
+                  return convertString;
+
+              };
+    </script>
+
+    <!--End of Integration Scripts-->
+
+</body>
+</html>
